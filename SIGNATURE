@@ -1,0 +1,39 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 ccbb8cec919c9eaaaac813f4462b98020e7cd780 Build.PL
+SHA1 54ff09de4333c33a03374a51d5fc3d407a777c90 Changes
+SHA1 c074fcc984e4abf53115d5da0d7a44dd8ed06880 MANIFEST
+SHA1 7d20e4e840781030202bb045d5ab81b3fd1b68b0 MANIFEST.SKIP
+SHA1 ed36ff2b97cccbac8c3c58e850a466c6b0aea074 META.yml
+SHA1 56a2897972fcefea7329d5a5e0e8543d4f28623d Makefile.PL
+SHA1 7ebc6939c26375ee44db4722512110587dafb19d README
+SHA1 0a2c1f9bcdf67c5864ba76c43fce3c9a8e0476bc lib/Radio/ProgrammesSchedules/BBC.pm
+SHA1 0963c56d708b06ba814c24f1336e3981396b371f t/00-load.t
+SHA1 c657010ba9a3a1d03748802fb403bd4645b3ad79 t/01-unit-test.t
+SHA1 2b8ffb7e4f399af95d092743846ac8d438f2c53e t/manifest.t
+SHA1 0765c9ff0cc4319f415bb08d0053b7717a8284a2 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (MingW32)
+
+iQEcBAEBAgAGBQJNxfmnAAoJENoXJXWo7C/pqpoH/jIIRrIaIw8B8Mwb3QojzzcC
+8m34NZ8DbMWG6ALIHE8E/RHNmgijn2g10UNewdXUa5+QK3DikCovPEpki7I8kSQS
+xMN9mQt+IYY+zZPJgvbC/6iUsJHPZNTmED21CR/4iFDuDvdGKegpJ/pqPVT6zu0g
+/Z0EXdSKEZgDtsfS5B9k10VHTsJgVitn3rZsHEJ+KhJSpSUsM9F8KGnskJZ0pMUy
+Rthm+3ZfJ7Ds9cF1J4WyUQIzAnvcdUL+45oXqJQPchYaElYerqauu59JBNjOfJW8
+Nu06nERT9PQL1mzh18wKQ0LfdUCVe3tJ6QslpdvWt99rlDGOCHiPXeRD7YZcRuM=
+=cemB
+-----END PGP SIGNATURE-----
