@@ -18,11 +18,11 @@ Radio::ProgrammesSchedules::BBC - Interface to BBC Radio Programmes Schedules.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 Readonly my $BASE_URL => 'http://www.bbc.co.uk';
 Readonly my $CHANNELS =>
@@ -36,7 +36,6 @@ Readonly my $CHANNELS =>
     '5live'            => '5 Live',
     '5livesportsextra' => '5 Live Sports Extra',
     '6music'           => '6 Music',
-    radio7             => 'Radio 7',
     aisannetwork       => 'Asian Network',
     worldservice       => 'World Service'
 };
@@ -65,13 +64,13 @@ includes the following:
 
 =item * Music radio on Radio 1, Radio 1Xtra, Radio 2, 6 Music and Asian Network.
 
-=item * Speech, drama, analysis and the arts on Radio 4.
-
 =item * Classical music and jazz on Radio 3.
 
-=item * News and sport on 5 live and 5 live sports extra.
+=item * Speech, drama, analysis and the arts on Radio 4.
 
-=item * Comedy, drama and children's programming on Radio 7
+=item * Comedy, drama and children's programming on Radio 4 Extra.
+
+=item * News and sport on 5 live and 5 live sports extra.
 
 and many more.
 
@@ -80,10 +79,10 @@ and many more.
 =head1 CONSTRUCTOR
 
 The  module provides programmes schedules for Radio 1, 1Xtra, Radio 2, Radio 3, Radio 4, Radio
- 4  Extra,  5  Live,  5 Live Sports Extra, 6 Music,  Radio 7, Asian Network and World Service.
-The constructor expects a reference to an anonymous hash as input parameter. Table below shows
-the possible value of various key ( channel, location, frequency, yyyy, mm, dd ). The yyyy, mm
-and dd are optional. If missing picks up the current year, month and day.
+4 Extra, 5 Live, 5 Live Sports Extra, 6 Music, Asian Network and World Service.The constructor
+expects  a  reference  to an anonymous hash as input parameter. Table below shows the possible
+value  of  various key ( channel, location, frequency, yyyy, mm, dd ). The yyyy, mm and dd are
+optional. If missing picks up the current year, month and day.
 
     +---------------------+------------------+-----------------+-----------+------+----+----+
     | Name                | Channel          | Location        | Frequency | YYYY | MM | DD |
@@ -109,8 +108,6 @@ and dd are optional. If missing picks up the current year, month and day.
     | 5 Live Sports Extra | 5livesportsextra | N/A             | N/A       | 2011 | 11 | 15 |
     |                     |                  |                 |           |      |    |    |
     | 6 Music             | 6music           | N/A             | N/A       | 2011 | 11 | 15 |
-    |                     |                  |                 |           |      |    |    |
-    | Radio 7             | radio7           | N/A             | N/A       | 2011 | 11 | 15 |
     |                     |                  |                 |           |      |    |    |
     | Asian Network       | asiannetwork     | N/A             | N/A       | 2011 | 11 | 15 |
     |                     |                  |                 |           |      |    |    |
@@ -148,9 +145,6 @@ and dd are optional. If missing picks up the current year, month and day.
 
     # BBC 6 Music
     $bbc = Radio::ProgrammesSchedules::BBC->new({ channel => '6music' });
-
-    # BBC Radio 7
-    $bbc = Radio::ProgrammesSchedules::BBC->new({ channel => 'radio7' });
 
     # BBC Asian Network
     $bbc = Radio::ProgrammesSchedules::BBC->new({ channel => 'aisannetwork' });
