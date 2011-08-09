@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,26 +14,26 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 ccbb8cec919c9eaaaac813f4462b98020e7cd780 Build.PL
-SHA1 49b2a7201884bd65ba024efaa82d251ec507a4c4 Changes
+SHA1 18b6455d250e7a0fad44c035fd9d0a83c207a860 Build.PL
+SHA1 a85c596790efb8b24384a0b5778dc6e4dbfd48e4 Changes
 SHA1 c074fcc984e4abf53115d5da0d7a44dd8ed06880 MANIFEST
 SHA1 7d20e4e840781030202bb045d5ab81b3fd1b68b0 MANIFEST.SKIP
-SHA1 4796b871d5113224a020ca37e5b65d4db05fe4e9 META.yml
-SHA1 56a2897972fcefea7329d5a5e0e8543d4f28623d Makefile.PL
+SHA1 ab732885409829d983c19b5d86f5d4afed62dbe4 META.yml
+SHA1 ece4d5d20dd0f0c300c01d307513f82ba022cb8e Makefile.PL
 SHA1 7ebc6939c26375ee44db4722512110587dafb19d README
-SHA1 3cc1493cf1049610511c54fd528beb575f43c7e8 lib/Radio/ProgrammesSchedules/BBC.pm
+SHA1 b8ae15138350405e5028344d7eab440be8927e60 lib/Radio/ProgrammesSchedules/BBC.pm
 SHA1 0963c56d708b06ba814c24f1336e3981396b371f t/00-load.t
 SHA1 c657010ba9a3a1d03748802fb403bd4645b3ad79 t/01-unit-test.t
 SHA1 2b8ffb7e4f399af95d092743846ac8d438f2c53e t/manifest.t
 SHA1 0765c9ff0cc4319f415bb08d0053b7717a8284a2 t/pod.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.11 (MingW32)
+Version: GnuPG v2.0.14 (MingW32)
 
-iQEcBAEBAgAGBQJNxnU1AAoJENoXJXWo7C/pcpMIAM6tSmG0vkSd9oM3v+MX+mo+
-KgpvLioD45zG4ti+afA1lpGl8rKJS07fKVmv8a144zMsIv4lvkbL8ulNx2HYuQpu
-FNRK02JF9vWOhGJV8qUBjg4izYugZcFs+EvDQ3s6TqueCMuAcnoCB4kC3Qcl3/+W
-oj/SQAlgSguBw/P06HLySmIe9e+ZOTqrgXP+1PH+yg1qrG9i3gjju38zV1CWLxUd
-PEFYYHD8ztlduvHcuSf3+xNaBjc0C1n9DzmV1iBCwc9IJrZlpE+zdKqhBXlV8fLF
-eqahwSnGT5fE/8ovds/R5NQ26bsXj1p9Qa+ZDEDbLskxuivhZ6nHjL929ctjzPo=
-=kgOf
+iQEcBAEBAgAGBQJOQQ5cAAoJEPYcXBXhRYOhTEYIAInl13l1uEw+x/xmLOQAHMTx
+Jl7sXNNu6o5gauOEIHn9uh9vWUl92OANNRcJo5iyRBBQQjDDwSa1LZ0CPDz+tmA0
+Fp+utU0S9IDIcPWhzEaXM7Xdwjl9pgDG/P3lUPkTtqFXXZ/ySu1VphYjoq994Mvj
+YII2WlDJn7/zTsh0gHpP82/sxPCqDDxLk7/jKgrvmCDRlru8w9s/BKfpck7mrWuu
+0uk5JWJbl+J7GLKO1PcTCizIYymzMDZrQoajJItiPaOYa6o5GgGemqP9II0aB49z
+tv8Pgv4IN+3TQtNTyv0Af8X1SxjfRs0ulO/1ZH9vSwIX+7LPf8YjLypaFILcBfQ=
+=V6/D
 -----END PGP SIGNATURE-----

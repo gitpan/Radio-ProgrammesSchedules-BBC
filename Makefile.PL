@@ -10,8 +10,8 @@ WriteMakefile(
     clean         => { FILES => 'Radio-ProgrammesSchedules-BBC*' },
     PREREQ_PM     => {
         'Test::More'      => 0,
-        'Readonly'        => 0,
-        'HTML::Entities'  => 0,
+        'Readonly'        => '1.03',
+        'HTML::Entities'  => '1.35',
         'Time::localtime' => '1.02',
         'HTTP::Request'   => '1.40',
         'LWP::UserAgent'  => '2.33',

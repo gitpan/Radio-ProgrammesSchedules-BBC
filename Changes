@@ -1,5 +1,9 @@
 Revision history for Radio-ProgrammesSchedules-BBC
 
+0.03    Tue Aug 09 11:37:13 2011
+        - Made Readonly v1.03 as minimum requirement.
+        - Prepared the distribution using the Module::Signature v0.68.
+
 0.02    Sun May 08 11:38:00 2011
         - Radio 7 has been renamed to Radio 4 Extra as reported by Martin Ward.
 

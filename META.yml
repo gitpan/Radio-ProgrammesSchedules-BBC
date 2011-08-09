@@ -3,10 +3,10 @@ abstract: 'Interface to BBC Radio Programmes Schedules.'
 author:
   - 'Mohammad S Anwar <mohammad.anwar@yahoo.com>'
 build_requires:
-  HTML::Entities: 0
+  HTML::Entities: 1.35
   HTTP::Request: 1.40
   LWP::UserAgent: 2.33
-  Readonly: 0
+  Readonly: 1.03
   Test::More: 0
   Time::localtime: 1.02
 configure_requires:
@@ -20,7 +20,7 @@ name: Radio-ProgrammesSchedules-BBC
 provides:
   Radio::ProgrammesSchedules::BBC:
     file: lib/Radio/ProgrammesSchedules/BBC.pm
-    version: 0.02
+    version: 0.03
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03

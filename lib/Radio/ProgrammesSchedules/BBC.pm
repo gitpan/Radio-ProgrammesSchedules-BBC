@@ -18,11 +18,11 @@ Radio::ProgrammesSchedules::BBC - Interface to BBC Radio Programmes Schedules.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 Readonly my $BASE_URL => 'http://www.bbc.co.uk';
 Readonly my $CHANNELS =>
